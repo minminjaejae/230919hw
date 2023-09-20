@@ -1,0 +1,117 @@
+@charset "utf-8";
+body {
+  background-image: url(./images/274BC649563899A622.jfif);
+}
+
+.container {
+  width: 1000px; height: 700px;
+  margin: 40px auto;
+  border: pink 5px solid;
+}
+.container1 {
+  background-color: blueviolet;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/img_yrl_leica.png);
+  background-repeat: no-repeat;
+  background-position: -25% 45%;
+  padding-left: 100px;
+}
+.container h1 {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-family: '휴먼둥근헤드라인';
+}
+.container1 h2 {
+  margin-top: 0;
+  font-family: '휴먼편지체';
+}
+ul {
+  background-color: rgb(202, 202, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  list-style: none;
+  margin-top: 0;
+  margin: auto; padding: 8px;
+
+}
+ul li:hover {
+  background-color: #000;
+}
+ul a {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+  margin: 20px;
+}
+.container2 img{
+  border: 3px red solid;
+  width: 300px; height: 200px;
+  margin: 10px;
+}
+.container2 {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+.box  {
+  display: flex;
+  flex-direction: row;
+}
+.box1 {
+  width: 290px; height: 100px;
+}
+.box h4 {
+  color: red;
+}
+.container4 {
+  display: flex;
+}
+.container3 ul{
+  background-color: #fff;
+  border: 1px solid red; 
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  width: 300px; height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 0;
+}
+.container3 h1{
+  color: red;
+  padding-left: 20px;
+}
+.container3 a {
+  color: #000;
+}
+.container3 li {
+  border: 1px red solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 20px;
+}
+.container3 p {
+  padding-left: 20px;
+  font-weight: bold;
+}
+.container5 p {
+  margin: 0;
+  background-color: blueviolet;
+  height: 40px;
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.container3  li:hover {
+  background-color: blueviolet;
+}
+
+
+
